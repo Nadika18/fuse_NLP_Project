@@ -1,0 +1,5 @@
+venv/
+classification/__pycache__
+complaints/__pycache__
+complaints/migrations/__pycache__
+random_forest.pkl
