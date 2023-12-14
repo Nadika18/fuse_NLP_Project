@@ -3,3 +3,8 @@ classification/__pycache__
 complaints/__pycache__
 complaints/migrations/__pycache__
 random_forest.pkl
+complaints/nepaliW2V_5Million.model
+complaints/nepaliW2V_5Million.model.wv.vectors.npy
+complaints/nepaliW2V_5Million.model.syn1neg.npy
+complaints/labelencoder.pkl
+complaints/finalweb2vec.pkl
