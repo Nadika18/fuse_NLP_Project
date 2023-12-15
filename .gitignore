@@ -8,3 +8,4 @@ complaints/nepaliW2V_5Million.model.wv.vectors.npy
 complaints/nepaliW2V_5Million.model.syn1neg.npy
 complaints/labelencoder.pkl
 complaints/finalweb2vec.pkl
+notebooks/updated_text_data.xlsx
