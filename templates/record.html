@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display:flex;justify-content:center;align-items:center;margin-top: 100px;">
+       
+    </div>
+    {% if audio_path%}
+        <div style="display:flex;justify-content:center;align-items:center;margin-top: 10px;">
+            <a href="{{audio_path}}">{{audio_path}}</a>
+        </div>
+    {%endif%}
+    <div id="fileform" style="display:flex;justify-content:center;align-items:center;margin-top: 10px;">
+        <form action="{%url 'record_audio' %} " 
+        method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <label for="audio"><strong>Upload Audio: </strong></label>
+            <input type="file" name="audio" accept="audio/*"><br><br>
+                       <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -7,5 +7,12 @@ complaints/nepaliW2V_5Million.model
 complaints/nepaliW2V_5Million.model.wv.vectors.npy
 complaints/nepaliW2V_5Million.model.syn1neg.npy
 complaints/labelencoder.pkl
+complaints/label_encoder_final.pkl
 complaints/finalweb2vec.pkl
 notebooks/updated_text_data.xlsx
+complaints/best_wav2vec_model
+complaints/best_wav2vec_processor
+complaints/pythonfiles
+complaints/bi_LSTM_model.h5
+complaints/Pani.flac
+media/audio/
